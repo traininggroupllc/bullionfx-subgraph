@@ -1,0 +1,10 @@
+{
+  "name": "blocks",
+  "description": "BullionFX Subgraph",
+  "version": "1.0.0",
+  "scripts": {
+    "codegen": "graph codegen subgraph.yaml",
+    "build": "graph build subgraph.yaml",
+    "deploy": "graph deploy enjoydream420/bullionfx_main_block --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/"
+  }
+}
